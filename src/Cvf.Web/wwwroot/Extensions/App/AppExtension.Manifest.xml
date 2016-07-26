@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <extension name="AppExtension" baseUri="Extensions/App">
+    <scripts>
+      <script src="~/Scripts/AppExtension.List.js"></script>
+      <script src="~/Scripts/AppExtension.Messages.js"></script>
+      <script src="~/Scripts/AppExtension.Map.js"></script>
+    </scripts>
+    <stylesheets>
+      <!--<stylesheet src="~/Styles/xxx.css"></stylesheet>-->
+    </stylesheets>
+    <templates>
+      <template name="list" src="~/Views/AppExtension.List.html"></template>
+      <template name="messages" src="~/Views/AppExtension.Messages.html"></template>
+      <template name="map" src="~/Views/AppExtension.Map.html"></template>
+    </templates>
+  </extension>
+</manifest>

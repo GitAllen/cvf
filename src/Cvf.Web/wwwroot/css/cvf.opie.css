@@ -1,0 +1,72 @@
+﻿.cvf-opie {
+    min-height: 400px;
+    border-bottom: 1px solid #eeeeee;
+    padding: 1em;
+}
+
+    .cvf-opie li {
+        list-style: none;
+    }
+
+    .cvf-opie .cvf-opie-headline, .cvf-opie-subHeadline {
+        text-align: center;
+    }
+
+    .cvf-opie .cvf-opie-headline {
+        position: relative;
+        font-weight: 100;
+        text-align: center;
+        color: #444;
+        background-color: #fff;
+        font-size: 17px;
+    }
+
+        .cvf-opie .cvf-opie-headline:before {
+            position: absolute;
+            content: '';
+            bottom: 0;
+            left: 50%;
+            width: 25%;
+            margin: 0 0 0 -12.5%;
+            border-top: 1px dashed #999;
+        }
+
+    .cvf-opie .cvf-opie-subHeadline {
+        font-weight: 100;
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .cvf-opie .cvf-opie-container {
+        background-color: white;
+        width: 100%;
+    }
+
+    .cvf-opie .cvf-opie-center-text {
+        font-size: 31px;
+        fill: #333;
+    }
+
+    .cvf-opie .cvf-opie-center-outerCircle {
+        fill: rgba(255, 255, 255, 0.75);
+    }
+
+    .cvf-opie .cvf-opie-detail-divider {
+        stroke: gray;
+        stroke-width: 1;
+    }
+
+    .cvf-opie .cvf-opie-detail-percentage {
+        font-size: 32px;
+        font-weight: 100;
+        fill: #333333;
+        stroke-width: 1px;
+    }
+
+    .cvf-opie .cvf-opie-detail-textContainer {
+        background-color: transparent;
+        padding: 3px 0 0 0;
+        margin: 0;
+        fill: #666666;
+        font-style: italic;
+    }

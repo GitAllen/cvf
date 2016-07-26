@@ -1,0 +1,38 @@
+﻿.cvf-gauges {
+}
+
+    .cvf-gauges .cvf-gauges-circle-out {
+        fill: #CCC;
+        stroke: #000;
+        stroke-width: 0.5px;
+    }
+
+    .cvf-gauges .cvf-gauges-circle-in {
+        fill: #FFF;
+        stroke: #e0e0e0;
+        stroke-width: 2px;
+    }
+
+    .cvf-gauges .cvf-gauges-label {
+        fill: #333;
+        stroke-width: 0px;
+        text-anchor: middle;
+    }
+
+    .cvf-gauges .cvf-gauges-text {
+        text-anchor: middle;
+        fill: #000;
+        stroke-width: 0px;
+    }
+
+    .cvf-gauges .cvf-gauges-label-respon,
+    .cvf-gauges .cvf-gauges-text-respon {
+        fill: #4498BF;
+    }
+
+        .cvf-gauges .cvf-gauges-label-respon:hover,
+        .cvf-gauges .cvf-gauges-text-respon:hover {
+            fill: #5BC0DE;
+            pointer-events: all;
+            cursor: pointer;
+        }
